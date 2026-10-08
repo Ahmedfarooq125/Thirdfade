@@ -11,6 +11,7 @@
   "vars": {
     "CONTACT_EMAIL": "info@thirdfade.com",
     "TURNSTILE_HOSTNAME": "thirdfade.com",
-    "TURNSTILE_SITE_KEY": "0x4AAAAAAFRrwlSdbNKQ1oJN"
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFRrwlSdbNKQ1oJN",
+    "SUPABASE_URL": "https://xeaatllylrkmygoplogh.supabase.co"
   }
-}       
+}

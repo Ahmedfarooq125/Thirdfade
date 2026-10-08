@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-06T20:30:41Z",
+  "status": "READY",
+  "environment": "production",
+  "publicUrl": "https://thirdfade-site.vercel.app/",
+  "deploymentUrl": "https://thirdfade-site-pndozaxuj-adityasoodgood-9950s-projects.vercel.app",
+  "deploymentId": "dpl_HrajuNgFhWu7hqi93ygEgx8TFjGM",
+  "inspectorUrl": "https://vercel.com/adityasoodgood-9950s-projects/thirdfade-site/HrajuNgFhWu7hqi93ygEgx8TFjGM",
+  "projectName": "thirdfade-site",
+  "projectId": "prj_UOFtYjoyGBrh0H1FVzxXcxPiFviQ",
+  "teamScope": "adityasoodgood-9950s-projects",
+  "framework": "Vite",
+  "buildDurationSeconds": 14,
+  "sourceProvenance": "Current local workspace; no Git commit",
+  "contact": {
+    "preview": false,
+    "ready": false
+  },
+  "deployedArtifacts": [
+    {
+      "path": "index.html",
+      "sha256": "ce0f14cfabbeff5a78cc61abffa9e9d38ea7465d5f24a48b89feaf6a70eaac08"
+    },
+    {
+      "path": "assets/index-BK2jN66P.js",
+      "sha256": "c61d73668aec9cfd6397cc5c43e0685050e2abe88f73dbc4acab9c86e6aeb921"
+    },
+    {
+      "path": "assets/index-Ckb0_Z0f.css",
+      "sha256": "84370bc72bab84f72f5ec1a920861fb74cdacf146de24dd6b1f0b21a3c889b99"
+    }
+  ]
+}

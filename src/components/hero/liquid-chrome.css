@@ -1,0 +1,23 @@
+/* Layout adapted from the supplied index-DuQxsKef.css; all rules stay inside the hero. */
+.hero.chrome-hero{min-height:780px;height:100svh;max-height:none;background:var(--white);color:var(--ink)}
+.chrome-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 18% 32%,var(--iris),transparent 38%),radial-gradient(ellipse at 85% 72%,var(--lilac),transparent 36%);opacity:.45}
+.chrome-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:0}
+.chrome-canvas[data-ready=true]{opacity:1}
+.chrome-hero .nav-bar{background:rgba(239,235,247,.82)}
+.chrome-ui{position:relative;z-index:2;flex:1;display:flex;align-items:center;justify-content:center;pointer-events:none;padding:54px 24px 40px}
+.chrome-content{width:min(100%,980px);text-align:center;display:flex;flex-direction:column;align-items:center;gap:26px}
+.chrome-badge{margin:0;padding:13px 25px;border:1px solid rgba(25,18,51,.09);border-radius:200px;background:rgba(239,235,247,.65);backdrop-filter:blur(20px);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;pointer-events:auto}
+.chrome-title{font-size:clamp(64px,9vw,136px);font-weight:800;line-height:.88;letter-spacing:-.06em;color:var(--ink);margin:0;pointer-events:auto;text-shadow:0 1px 22px rgba(255,255,255,.5)}
+.chrome-title span{display:block;color:var(--teal);margin-top:.08em}
+.chrome-description{font-size:clamp(17px,1.65vw,23px);color:var(--ink);font-weight:500;line-height:1.55;max-width:610px;margin:0;pointer-events:auto;text-shadow:0 1px 12px #fff,0 1px 20px #fff}
+.chrome-actions{margin-top:12px;display:flex;gap:20px;pointer-events:auto}
+.chrome-button{padding:22px 40px;min-height:64px;border-radius:200px;font-size:16px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:24px;transition:transform .5s cubic-bezier(.16,1,.3,1),box-shadow .5s,background .5s}
+.chrome-button-primary{background:var(--ink);color:var(--white);box-shadow:0 12px 45px rgba(25,18,51,.15)}
+.chrome-button-primary:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(25,18,51,.25)}
+.chrome-button-secondary{background:rgba(239,235,247,.8);color:var(--ink);border:1px solid rgba(25,18,51,.15);backdrop-filter:blur(25px)}
+.chrome-button-secondary:hover{transform:translateY(-6px);background:var(--lilac)}
+.chrome-footer{position:relative;z-index:2;display:flex;justify-content:space-between;gap:20px;align-items:center;padding-bottom:24px}
+.chrome-scroll,.chrome-motion{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;display:inline-flex;align-items:center;gap:15px;min-height:44px;padding:10px 15px;border-radius:30px;background:rgba(239,235,247,.8);backdrop-filter:blur(12px);color:var(--ink)}
+.chrome-motion{border:1px solid rgba(25,18,51,.12);letter-spacing:.04em}
+@media(max-width:760px){.hero.chrome-hero{min-height:800px}.chrome-ui{padding:56px 22px 35px}.chrome-content{gap:24px}.chrome-title{font-size:clamp(52px,10.5vw,80px)}.chrome-badge{font-size:9px;padding:12px 17px;letter-spacing:.1em}.chrome-description{font-size:17px;max-width:420px}.chrome-actions{flex-direction:column;width:min(100%,320px);gap:12px;margin-top:6px}.chrome-button{width:100%;min-height:58px;padding:18px 26px;font-size:14px}.chrome-footer{padding-inline:20px;gap:8px}.chrome-scroll,.chrome-motion{font-size:9px;gap:8px;padding-inline:12px}}
+@media(prefers-reduced-motion:reduce){.chrome-button{transition:none}.chrome-button:hover{transform:none}}

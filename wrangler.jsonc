@@ -13,5 +13,6 @@
     "TURNSTILE_HOSTNAME": "thirdfade.com",
     "TURNSTILE_SITE_KEY": "0x4AAAAAAFRrwlSdbNKQ1oJN",
     "SUPABASE_URL": "https://xeaatllylrkmygoplogh.supabase.co"
+    "CONTACT_FROM_EMAIL": "ThirdFade <noreply@thirdfade.com>"
   }
 }
